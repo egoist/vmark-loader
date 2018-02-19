@@ -1,0 +1,30 @@
+{
+  "name": "vmark-loader",
+  "version": "0.0.0",
+  "description": "Webpack loader for vmark.",
+  "repository": {
+    "url": "egoist/vmark-loader",
+    "type": "git"
+  },
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "npm run lint && echo 'no tests!'",
+    "lint": "xo"
+  },
+  "author": "egoist <0x142857@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "loader-utils": "^1.1.0",
+    "vmark": "^0.1.0"
+  },
+  "devDependencies": {
+    "eslint-config-rem": "^3.0.0",
+    "xo": "^0.18.0"
+  },
+  "xo": {
+    "extends": "rem"
+  }
+}

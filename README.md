@@ -8,7 +8,7 @@ Webpack loader for [vmark](https://github.com/egoist/vmark).
 ## Install
 
 ```bash
-yarn add vmark-loader
+yarn add vmark vmark-loader --dev
 ```
 
 ## Usage

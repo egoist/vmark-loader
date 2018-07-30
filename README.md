@@ -21,7 +21,14 @@ module.exports = {
     rules: [
       {
         test: /\.md$/,
-        loader: 'vmark-loader' 
+        use: [
+          {
+            loader: 'vue-loader'
+          },
+          {
+            loader: 'vmark-loader'
+          }
+        ] 
       }
     ]
   }

@@ -27,6 +27,6 @@
     "extends": "rem"
   },
   "peerDependencies": {
-    "vmark": "*"
+    "vmark": "^1.0.0"
   }
 }
